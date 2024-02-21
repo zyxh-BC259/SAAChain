@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "_interfaceID",
+						"type": "bytes4"
+					}
+				],
+				"name": "supportsInterface",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "A standard for detecting smart contract interfaces.  See: https://eips.ethereum.org/EIPS/eip-165.",
+			"kind": "dev",
+			"methods": {
+				"supportsInterface(bytes4)": {
+					"details": "Checks if the smart contract includes a specific interface. This function uses less than 30,000 gas.",
+					"params": {
+						"_interfaceID": "The interface identifier, as specified in ERC-165."
+					},
+					"returns": {
+						"_0": "True if _interfaceID is supported, false otherwise."
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/github/0xcert/ethereum-erc721/src/contracts/utils/erc165.sol": "ERC165"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/github/0xcert/ethereum-erc721/src/contracts/utils/erc165.sol": {
+			"keccak256": "0x926d28b30f5abaa07933383993c7f9a64cc2f93f7e51681edc957d8f5b9c5b90",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5f89a53e07499c04d0f667e6692da52a47d4cb8a79e5937809e08c23138a5b3b",
+				"dweb:/ipfs/QmeoL8qx7cAUeXanVF7irgqdtLwwjhFo1QvZ8h4XAKreUe"
+			]
+		}
+	},
+	"version": 1
+}
